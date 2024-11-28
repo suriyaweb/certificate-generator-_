@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate Generator</title>
+  <link rel="stylesheet" href="./styles.css"></link>
+</head>
+<body>
+  
+  <div class="certificate" id="certificate">
+    <br><br><br><br><br><br>
+      <h1>Certificate of Completion</h1>
+    <h1>Sharpened Mind Tech & Solution private limited </h1>
+    <p>This certifies that</p>
+    <p id="name-placeholder">[Name]</p>
+    <p>has successfully completed the course</p>
+    <p id="course-placeholder">[Course]</p>
+    <p>on</p>
+    <p id="date-placeholder">[Date]</p>
+     <img src="./logo-removebg-preview.png" class="logo" alt="Logo"> 
+  </div>
+
+  <div class="input-group">
+    <input type="text" id="name" placeholder="Enter Name" />
+  </div>
+  <div class="input-group">
+    <input type="text" id="course" placeholder="Enter Course Name" />
+  </div>
+  <div class="input-group">
+    <input type="date" id="date" />
+  </div>
+  <button onclick="generateCertificate()">Generate Certificate</button>
+  <button onclick="downloadCertificate()">Download Certificate</button>
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+</body>
+</html>
+
+ 

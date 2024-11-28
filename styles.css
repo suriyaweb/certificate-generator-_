@@ -1,0 +1,108 @@
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f3f3f3;
+      }
+      
+      img {
+        width: 350px;
+        height: 100px;
+        object-fit: contain;
+        margin-bottom: 100px;
+      }
+      
+       .certificate {
+        width: 90%;
+        max-width: 90%; 
+        margin: 100px auto; 
+        border: 2px solid #000;
+        background: #fff;
+        background-image: url(./abstract-vector-black-white-frame-with-golden-elements-background-pattern_446392-468.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 100px;
+      }
+      
+      .certificate h1 {
+        font-size: 2.rem;
+        margin-top: 50px;
+        color:black;
+        padding-top: 20px;
+      }
+      
+      .certificate p {
+        font-size: 1.8rem;
+        margin: 20px;
+        color: #000;
+      }
+      
+      .input-group {
+        margin: 20px 0;
+      }
+      
+      .input-group input {
+        padding: 10px;
+        font-size: 1rem;
+        width: 33%;
+        max-width: 300px;
+        box-sizing: border-box; 
+        
+        
+      }
+      
+      button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        margin-top: 20px;
+        cursor: pointer;
+        background-color:skyblue;
+        border: none;
+        border-radius: 5px; 
+        transition: background-color 0.3s ease;
+       
+      }
+      
+      button:hover {
+        background-color: green; 
+      } 
+      
+      h1 {
+        margin-top: 60px;
+      }
+      .name{
+        color: #fff;
+      }
+     
+      @media (max-width: 600px) {
+        .certificate {
+          width: 90%;
+          margin-top: 50px;
+        }
+      
+        .certificate h1 {
+          font-size: 1.8rem;
+        }
+      
+        .certificate p {
+          font-size: 1rem;
+          margin: 15px;
+        }
+      
+        .input-group input {
+          width: 80%; 
+          font-size: 0.9rem;
+        }
+      
+        button {
+          font-size: 0.9rem;
+          padding: 8px 15px;
+        }
+      }   
+      
+   
+      
+    
+  
